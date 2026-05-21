@@ -15,7 +15,19 @@ const connection = new signalR.HubConnectionBuilder()
     .withAutomaticReconnect()
     .build();
 
+connection.on("LoadMessageHistory", (messages) => {
+    messagesList.innerHTML = "";
+
+    for (const message of messages) {
+        renderMessage(message);
+    }
+});
+
 connection.on("ReceiveMessage", (message) => {
+    renderMessage(message);
+});
+
+function renderMessage(message) {
     const item = document.createElement("article");
     const currentUser = userInput.value.trim();
     item.className = message.user === currentUser ? "message message-own" : "message";
@@ -35,7 +47,7 @@ connection.on("ReceiveMessage", (message) => {
     item.append(author, body, time);
     messagesList.appendChild(item);
     messagesList.scrollTop = messagesList.scrollHeight;
-});
+}
 
 connection.onreconnecting(() => {
     connectionStatus.textContent = "Reconnecting...";
