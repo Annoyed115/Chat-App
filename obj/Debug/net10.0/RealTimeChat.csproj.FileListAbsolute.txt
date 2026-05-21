@@ -1,0 +1,64 @@
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\appsettings.json
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\RealTimeChat.staticwebassets.runtime.json
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\RealTimeChat.staticwebassets.endpoints.json
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\RealTimeChat.exe
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\RealTimeChat.deps.json
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\RealTimeChat.runtimeconfig.json
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\RealTimeChat.dll
+C:\Users\PC\Desktop\RealTimeChat\bin\Debug\net10.0\RealTimeChat.pdb
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\RealTimeChat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\RealTimeChat.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\RealTimeChat.AssemblyInfo.cs
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\RealTimeChat.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\RealTimeChat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\scopedcss\bundle\RealTimeChat.styles.css
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\compressed\tghirts0tq-{0}-1ci6u8wl1j-1ci6u8wl1j.gz
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\compressed\1eqj5pg7h2-{0}-rakzaajuqg-rakzaajuqg.gz
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\compressed\l1ohndlw0y-{0}-d0lamtap0m-d0lamtap0m.gz
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\RealTimeChat.dll
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\refint\RealTimeChat.dll
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\RealTimeChat.pdb
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\RealTimeChat.genruntimeconfig.cache
+C:\Users\PC\Desktop\RealTimeChat\obj\Debug\net10.0\ref\RealTimeChat.dll
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\appsettings.json
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\RealTimeChat.staticwebassets.endpoints.json
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\RealTimeChat.staticwebassets.runtime.json
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\RealTimeChat.exe
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\RealTimeChat.deps.json
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\RealTimeChat.runtimeconfig.json
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\RealTimeChat.dll
+C:\Users\PC\Desktop\Chat App\bin\Debug\net10.0\RealTimeChat.pdb
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\RealTimeChat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\RealTimeChat.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\RealTimeChat.AssemblyInfo.cs
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\RealTimeChat.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\RealTimeChat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\scopedcss\bundle\RealTimeChat.styles.css
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\compressed\tghirts0tq-{0}-1ci6u8wl1j-1ci6u8wl1j.gz
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\compressed\1eqj5pg7h2-{0}-rakzaajuqg-rakzaajuqg.gz
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\compressed\l1ohndlw0y-{0}-d0lamtap0m-d0lamtap0m.gz
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\RealTimeChat.dll
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\refint\RealTimeChat.dll
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\RealTimeChat.pdb
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\RealTimeChat.genruntimeconfig.cache
+C:\Users\PC\Desktop\Chat App\obj\Debug\net10.0\ref\RealTimeChat.dll

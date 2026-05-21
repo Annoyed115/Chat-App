@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real Time Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="chat-shell">
+        <section class="chat-panel" aria-label="Chat">
+            <header class="chat-header">
+                <div>
+                    <h1>Real Time Chat</h1>
+                    <p id="connectionStatus">Connecting...</p>
+                </div>
+            </header>
+
+            <section id="messagesList" class="messages" aria-live="polite"></section>
+
+            <form id="messageForm" class="composer">
+                <input id="userInput" type="text" autocomplete="name" placeholder="Your name" maxlength="24" required>
+                <input id="messageInput" type="text" autocomplete="off" placeholder="Write a message" maxlength="240" required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@8.0.7/dist/browser/signalr.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
