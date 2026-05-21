@@ -3,6 +3,12 @@ const messageForm = document.getElementById("messageForm");
 const messagesList = document.getElementById("messagesList");
 const userInput = document.getElementById("userInput");
 const messageInput = document.getElementById("messageInput");
+const savedUserName = localStorage.getItem("chatUserName");
+
+if (savedUserName) {
+    userInput.value = savedUserName;
+    messageInput.focus();
+}
 
 const connection = new signalR.HubConnectionBuilder()
     .withUrl("/chatHub")
@@ -11,7 +17,8 @@ const connection = new signalR.HubConnectionBuilder()
 
 connection.on("ReceiveMessage", (user, message, sentAt) => {
     const item = document.createElement("article");
-    item.className = "message";
+    const currentUser = userInput.value.trim();
+    item.className = user === currentUser ? "message message-own" : "message";
 
     const author = document.createElement("strong");
     author.textContent = user;
@@ -55,6 +62,7 @@ messageForm.addEventListener("submit", async (event) => {
         return;
     }
 
+    localStorage.setItem("chatUserName", user);
     await connection.invoke("SendMessage", user, message);
     messageInput.value = "";
     messageInput.focus();

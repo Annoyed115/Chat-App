@@ -71,6 +71,16 @@ body {
     border-radius: 8px;
 }
 
+.message-own {
+    align-self: flex-end;
+    background: #e8f0ff;
+    border-color: #bfd2ff;
+}
+
+.message-own strong {
+    color: #174ea6;
+}
+
 .message strong {
     display: block;
     margin-bottom: 4px;
