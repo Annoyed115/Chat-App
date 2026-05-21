@@ -15,19 +15,19 @@ const connection = new signalR.HubConnectionBuilder()
     .withAutomaticReconnect()
     .build();
 
-connection.on("ReceiveMessage", (user, message, sentAt) => {
+connection.on("ReceiveMessage", (message) => {
     const item = document.createElement("article");
     const currentUser = userInput.value.trim();
-    item.className = user === currentUser ? "message message-own" : "message";
+    item.className = message.user === currentUser ? "message message-own" : "message";
 
     const author = document.createElement("strong");
-    author.textContent = user;
+    author.textContent = message.user;
 
     const body = document.createElement("p");
-    body.textContent = message;
+    body.textContent = message.text;
 
     const time = document.createElement("time");
-    time.textContent = new Date(sentAt).toLocaleTimeString([], {
+    time.textContent = new Date(message.sentAt).toLocaleTimeString([], {
         hour: "2-digit",
         minute: "2-digit"
     });
@@ -56,14 +56,18 @@ messageForm.addEventListener("submit", async (event) => {
     event.preventDefault();
 
     const user = userInput.value.trim();
-    const message = messageInput.value.trim();
+    const text = messageInput.value.trim();
 
-    if (!user || !message) {
+    if (!user || !text) {
         return;
     }
 
     localStorage.setItem("chatUserName", user);
-    await connection.invoke("SendMessage", user, message);
+    await connection.invoke("SendMessage", {
+        user,
+        text,
+        sentAt: new Date().toISOString()
+    });
     messageInput.value = "";
     messageInput.focus();
 });

@@ -2,8 +2,13 @@ using Microsoft.AspNetCore.SignalR;
 
 public class ChatHub : Hub
 {
-    public async Task SendMessage(string user, string message)
+    public async Task SendMessage(ChatMessage message)
     {
-        await Clients.All.SendAsync("ReceiveMessage", user, message, DateTime.Now);
+        ChatMessage messageToSend = message with
+        {
+            SentAt = DateTime.Now
+        };
+
+        await Clients.All.SendAsync("ReceiveMessage", messageToSend);
     }
 }
